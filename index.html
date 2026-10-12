@@ -1,34 +1,62 @@
 <!doctype html>
 <html lang="id">
 <head>
- <meta charset="UTF-8" />
- <meta name="viewport" content="width=device-width, initial-scale=1.0" />
- <title>Beranda | Perpustakaan Digital</title>
- <link rel="stylesheet" href="css/style.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Beranda | Perpustakaan Digital</title>
+    <link rel="stylesheet" href="css/style.css" />
 </head>
 <body>
- <!-- Navbar -->
- <header class="navbar">
- <h1 class="logo">Perpustakaan Digital</h1>
- <nav>
- <ul class="menu">
- <li><a href="index.html">Beranda</a></li>
- <li><a href="profil.html">Profil</a></li>
- <li><a href="kegiatan.html">Kegiatan</a></li>
- <li><a href="kontak.html">Kontak</a></li>
- </ul>
- </nav>
- <button id="tombol-tema" type="button">Mode Gelap</button>
- </header>
- <!-- Konten utama -->
- <main>
- <h2>Beranda</h2>
- <!-- Isi halaman dikerjakan oleh anggota yang bertugas -->
- </main>
- <!-- Footer -->
- <footer>
- <p>&copy; 2026 Program Studi D3 Teknik Informatika</p>
- </footer>
- <script src="js/script.js"></script>
+    <header class="navbar">
+        <h1 class="logo">Perpustakaan Digital</h1>
+        <nav>
+            <ul class="menu">
+                <li><a href="index.html">Beranda</a></li>
+                <li><a href="profil.html">Profil</a></li>
+                <li><a href="kegiatan.html">Kegiatan</a></li>
+                <li><a href="kontak.html">Kontak</a></li>
+            </ul>
+        </nav>
+        <button id="tombol-tema" type="button">Mode Gelap</button>
+    </header>
+
+    <main>
+        <section class="hero-banner">
+            <h2>Selamat Datang di Portal Perpustakaan Digital</h2>
+            <p>Akses ribuan katalog buku, referensi akademik, dan literasi digital secara praktis dan cepat.</p>
+        </section>
+
+        <section>
+            <h3 class="section-title">Layanan Perpustakaan</h3>
+            <p class="info-text">
+                Perpustakaan Digital menyediakan fasilitas peminjaman buku, ruang baca yang nyaman, serta akses e-book dan jurnal online untuk mendukung kegiatan belajar dan penelitian.
+            </p>
+        </section>
+
+        <section>
+            <h3 class="section-title">Katalog Buku Populer</h3>
+            <div class="grid-card">
+                <div class="card">
+                    <img src="images/placeholder.jpg" alt="Pemrograman Web" class="card-img">
+                    <h4>Buku Pemrograman Web Modern</h4>
+                    <p class="card-desc">Panduan praktis belajar HTML, CSS, JavaScript, hingga Git untuk pemula.</p>
+                </div>
+                <div class="card">
+                    <img src="images/placeholder.jpg" alt="Basis Data" class="card-img">
+                    <h4>Buku Sistem Basis Data</h4>
+                    <p class="card-desc">Konsep perancangan relasi basis data, query SQL, dan optimasi database.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="dev-identity">
+            <p>Pengembang Beranda: Farhan Fawzi Rahmadan (NIM: 250202074)</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Portal Perpustakaan Digital</p>
+    </footer>
+    <script src="js/script.js"></script>
 </body>
 </html>

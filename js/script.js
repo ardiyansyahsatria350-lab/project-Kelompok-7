@@ -12,7 +12,9 @@ if (tombolTema) {
 }
 
 // ===== BAGIAN MAHASISWA 2 (Beranda) =====
-
+document.addEventListener("DOMContentLoaded", function () {
+    console.log("Halaman Beranda Perpustakaan Digital berhasil dimuat!");
+});
 
 // ===== BAGIAN MAHASISWA 3 (Profil dan Kegiatan) =====
 
